@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="button", value="Click Here", id="b1">
+    <input type="button", value="Show", id="b2">
+
+</body>
+</html>
+
+<script src="jquery.min.js"></script>
+    <script>
+        $(function(){
+          $("#b1").click(function(){
+            $(this).hide();
+          });
+          $("#b2").click(function(){
+            $("#b1").show();
+          });
+        });
+        </script>
+
