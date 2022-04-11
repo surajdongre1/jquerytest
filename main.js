@@ -4,8 +4,13 @@ $(function(){
 });
 $(function(){
     $('.bluebox').click(function () { 
-    $(this).fadeOut(2000)
+    $(this).fadeOut(200)
     $('.bluebox').fadeIn(2000)
+
         
+    });
+    $('.greenbox').click(function(){
+        $(this).fadeTo(2222,0.2)
+
     });
 });
