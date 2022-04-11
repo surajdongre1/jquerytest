@@ -1,0 +1,15 @@
+.redbox{
+    background-color: red;
+    color: blue;
+    height: 100px;width: 100px;
+}
+.greenbox{
+    background-color: green;
+    color: blue;
+    height: 100px;width: 100px;
+}
+.bluebox{
+    background-color: blue;
+    color: black;
+    height: 100px;width: 100px;
+}

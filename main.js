@@ -1,4 +1,11 @@
 $(function(){
-    $('#b1').slide(222);
+    $('.redbox').hide(2232);
 
-});slid
+});
+$(function(){
+    $('.bluebox').click(function () { 
+    $(this).fadeOut(2000)
+    $('.bluebox').fadeIn(2000)
+        
+    });
+});
