@@ -3,7 +3,9 @@ $(function(){
     $('.bluebox2').fadeToggle(1000);
     $('.bluebox2').fadeToggle(1000);
     $('.lightbox').delay(1000).fadeTo(1000,0.1,function(){alert("hello")}).delay(2000).animate({opacity:'5'});
-   
+    $('input').last().css('background-color', 'rgba(180,53,63,2)');
+    $('.redbox').after('<div class="redbox"> Newredbox</div>');
+    $('.redbox').replaceWith($('.bluebox'));
     
     
     // $(function(){
